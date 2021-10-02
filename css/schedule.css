@@ -1,11 +1,50 @@
+*{
+    scroll-behavior: smooth;
+}
+/* .sponsors-title{
+    align-self: center;
+    margin: auto;
+} */
+/* .sponsors-block{
+    margin: 20px;
+} */
+.sponsor-main{
+    margin: 20px;
+}
+.sponsor-card{
+    margin: auto;
+    min-width: 18rem;
+    width: 35vw;
+    height: auto;
+
+}
+.sponsor-2-card{
+    margin: auto;
+    min-width: 15rem;
+    width: 20vw;
+    height: auto;
+
+}
+.card-img-top{
+    align-self: center;
+    width: 70%;
+}
 .footer-block{
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
     background-color: black;
     padding: auto;
     padding: 20px;
 }
+.footer-list{
+    padding-left: 5px;
+    font-size: 0.9rem;
+}
+.footer-description{
+    font-size: 0.8rem;
+}
+
 .row{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     align-items: center;
 }
