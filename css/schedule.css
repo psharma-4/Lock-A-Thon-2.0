@@ -1,6 +1,101 @@
 *{
     scroll-behavior: smooth;
+    
 }
+body{
+    /* background-color: orange; */
+}
+
+
+.schedule-page-heading{
+    font-family: 'Rokkitt', serif;
+}
+.schedule-block{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.schedule-layout{
+    font-family: 'Old Standard TT', serif;
+    margin-left:  50px;
+    display: inline-flex;
+}
+.line{
+    border: 1px solid rgb(25, 146, 187);
+    background-color: rgb(25, 146, 187);
+    width: 0;
+    padding: 0;
+    margin: 0;
+    border-radius: 0px;
+    height: 750px;
+}
+.fa-circle-o-notch{
+    color: skyblue;
+    background-color: skyblue;
+}
+.rounds{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    right: 20px;
+}
+.round{
+    margin-bottom: 20px;
+    transition: transform 550ms ease-in;
+}
+.round:hover,.round:focus{
+    transform: scale(1.03); 
+    transition: transform 550ms ease-in;
+}
+
+.round-title{
+    position: relative;
+    right: 20px;
+    background-color: rgb(25, 146, 187);
+    color: white;
+    width: fit-content;
+    border: 2px solid rgb(21, 96, 121);
+    border-radius: 3px;
+    z-index: 2;
+}
+/* .round-title:hover{
+    border:grey solid 4px;
+} */
+.round-title-text{
+    padding: 10px;
+}
+.round-point{
+    position: relative;
+    top: 50px;
+    left:11px;
+}
+.round-details{
+    position: relative;
+    left: 30px;
+}
+.round-name{
+    font-weight: bold;
+    color: rgb(25, 146, 187)
+}
+
+
+.faq-card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* padding-top: 0; */
+    font-family: 'Caveat', cursive;
+    
+}
+.faq-question{
+    font-size: 1.5rem;
+}
+/* .faq-question:hover,.faq-question:active,.faq-question:active{
+    background-color: grey;
+} */
+.faq-answer{
+    display: none;
+    font-size: 1.3rem;
+}
+
 /* .sponsors-title{
     align-self: center;
     margin: auto;
@@ -29,6 +124,11 @@
     align-self: center;
     width: 70%;
 }
+
+
+
+
+
 .footer-block{
     /* position: absolute;
     bottom: 0; */
@@ -47,4 +147,7 @@
 .row{
     margin-bottom: 20px;
     align-items: center;
+}
+.hidden{
+    display: none;
 }
