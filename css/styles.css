@@ -1,38 +1,52 @@
 #lastResults {
+  background-image: url("../images/descimg.jpg");
+  background-repeat: no-repeat;
   text-align: center;
 }
 
-.resultCard {
-  display: inline-block;
-  margin: 10vh;
-  width: 45vh;
-  height: 45vh;
-  border-radius: 10%;
-  background-color: red;
-  padding: 2vh;
+#lastResults h2 {
   font-weight: 400;
   font-size: 30px;
+  color: white;
+}
+
+.mainData {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2%;
+}
+
+.card {
+  display: inline-block;
+  margin: 10vh;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+.list-group-item {
+  background-color: rgba(0, 0, 0, 0.6);
   color: white;
 }
 
 .show {
   margin: 10%;
   height: 80%;
-  transition-property: height;
-  transition-duration: 0.5s;
+  transition: all 0.5s ease-in;
 }
 
 .front {
   background-color: orange;
+  margin-bottom: 0;
 }
 
 .back {
   background-color: yellow;
+  margin-top: 0;
 }
 
 .hide {
   height: 0;
   overflow-y: hidden;
   transition-property: height;
-  transition-duration: 0.5s;
+  transition: all 0.5s ease-in;
 }
