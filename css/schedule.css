@@ -4,14 +4,24 @@
 }
 body{
     /* background-color: orange; */
+    /* background-image: url('../images/images.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
 }
 
 
 .schedule-page-heading{
     font-family: 'Rokkitt', serif;
+    font-size: 2.7rem;
+}
+.schedule-section{
+    /* background-image: url('../images/images.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
 }
 .schedule-block{
-    margin-top: 50px;
+    
+    /* margin-top: 50px; */
     margin-bottom: 50px;
 }
 .schedule-layout{
@@ -20,8 +30,8 @@ body{
     display: inline-flex;
 }
 .line{
-    border: 1px solid rgb(25, 146, 187);
-    background-color: rgb(25, 146, 187);
+    border: 1px solid coral;
+    background-color: coral;
     width: 0;
     padding: 0;
     margin: 0;
@@ -29,8 +39,8 @@ body{
     height: 750px;
 }
 .fa-circle-o-notch{
-    color: skyblue;
-    background-color: skyblue;
+    color: coral;
+    background-color: coral;
 }
 .rounds{
     margin-top: 20px;
@@ -40,20 +50,20 @@ body{
 }
 .round{
     margin-bottom: 20px;
-    transition: transform 550ms ease-in;
+    transition: transform 450ms ease-in;
 }
 .round:hover,.round:focus{
-    transform: scale(1.03); 
-    transition: transform 550ms ease-in;
+    transform: scale(1.02); 
+    transition: transform 450ms ease-in;
 }
 
 .round-title{
     position: relative;
     right: 20px;
-    background-color: rgb(25, 146, 187);
+    background-color: coral;
     color: white;
     width: fit-content;
-    border: 2px solid rgb(21, 96, 121);
+    border: 2px solid chocolate;
     border-radius: 3px;
     z-index: 2;
 }
@@ -74,19 +84,27 @@ body{
 }
 .round-name{
     font-weight: bold;
-    color: rgb(25, 146, 187)
+    color: coral
 }
 
 
 .faq-card{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* width: 65vw; */
     /* padding-top: 0; */
-    font-family: 'Caveat', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border: 0;
     
 }
+/* .faq-card:hover .fa-arrow-circle-down, .faq-card:active .fa-arrow-circle-down{
+    color: green;
+
+} */
 .faq-question{
     font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
 }
 /* .faq-question:hover,.faq-question:active,.faq-question:active{
     background-color: grey;
@@ -107,18 +125,39 @@ body{
     margin: 20px;
 }
 .sponsor-card{
+    
     margin: auto;
+    margin-top: 20px;
     min-width: 18rem;
     width: 35vw;
     height: auto;
+    position: relative;
+    bottom: 0;
+    transition: all 350ms ease-in;
+}
+.sponsor-card:hover{
+    bottom: 20px;
+    transition: all 350ms ease-in;
+    /* text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; */
+    /* text-shadow: 2px 2px 5px cyan; */
 
 }
 .sponsor-2-card{
+    
     margin: auto;
+    margin-top: 20px;
     min-width: 15rem;
     width: 20vw;
     height: auto;
-
+    position: relative;
+    bottom: 0;
+    transition: all 350ms ease-in;
+}
+.sponsor-2-card:hover{
+    bottom: 20px;
+    transition: all 350ms ease-in;
+    /* text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; */
+    /* text-shadow: 1px 1px 5px rgb(41, 3, 255); */
 }
 .card-img-top{
     align-self: center;
@@ -143,6 +182,62 @@ body{
 .footer-description{
     font-size: 0.8rem;
 }
+.footer-links a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.footer-links a:hover,.footer-links a:focus{
+    color: cyan;
+    transform: scale(1.04); 
+    transition: all 150ms ease-in;
+
+}
+.footer-links-anchor{
+    position: relative;
+}
+.footer-links-anchor::after{
+    content: '';
+    position: absolute;
+    left: -1px;
+    bottom: 0;
+    height: 1px;
+    width: 110%;
+    background-color: cyan;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 250ms ease-in;
+}
+.footer-links-anchor:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+/* .footer-links a:hover::after{
+    content: '';
+    height: 2px;
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0.5);
+    background-color: cyan;
+    transform: scale(1.04); 
+    transition: all 150ms ease-in;
+
+} */
+/* .footer-links a:visit{
+    color: whitesmoke;
+    transform: scale(1); 
+    transition: all 150ms ease-in;
+
+} */
+.social-links a{
+    color: gray;
+}
+.social-links i:hover{
+    color: cyan;
+    transform: scale(1.04); 
+    transition: all 150ms ease-in;
+
+}
+
 
 .row{
     margin-bottom: 20px;

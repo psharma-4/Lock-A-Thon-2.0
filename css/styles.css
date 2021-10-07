@@ -1,6 +1,6 @@
 #lastResults {
-  background: url("../images/pic2.jpg");
-  background-repeat: no-repeat;
+  /* background-image: url("../images/descimg.jpg");
+  background-repeat: no-repeat; */
   text-align: center;
 }
 
@@ -15,7 +15,7 @@
   padding: 2%;
 }
 
-.card {
+.result-card {
   display: inline-block;
   margin: 10vh;
   text-align: left;
@@ -24,7 +24,7 @@
 }
 
 .list-group-item {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.6);
   color: white;
 }
 
