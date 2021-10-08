@@ -1,6 +1,6 @@
 #lastResults {
-  /* background-image: url("../images/descimg.jpg");
-  background-repeat: no-repeat; */
+  background-image: url("../images/past-results.jpg");
+  background-repeat: no-repeat;
   text-align: center;
 }
 
@@ -50,3 +50,39 @@
   transition-property: height;
   transition: all 0.5s ease-in;
 }
+
+.win-img {
+  width: 100%;
+}
+
+.hrule {
+  height: 20px;
+  width: 100px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-style: dotted;
+  border-bottom-width: 20px;
+  border-bottom-color: red;
+}
+
+.containerInStyle {
+  padding: 50px;
+  font-size: 30px;
+}
+
+.head-about {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 700;
+  display: block;
+}
+
+/* .color-change {
+  color: white;
+}
+
+.schedule-data {
+  background: url("../images/schedule-back.jpg");
+  background-repeat: no-repeat;
+} */
