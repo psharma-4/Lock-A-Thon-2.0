@@ -57,6 +57,38 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <header class="overlay">
+      <!-- Lock-A-Thon 2.0 -->
+      <nav class="navbar navbar-expand-md ">
+        <div class="container">
+          <a href="#" class="navbar-brand"><img src="./images/bit.png" alt="" style="width: 60px;" /></a>
+          <button class="navbar-toggler navbar-icon" type="button" style="color: white;" data-toggle="collapse" data-target="#mainnav" aria-controls="mainnav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- lol -->
+            <!-- <span class="navbar-toggler-icon text-light" style="color: white;"></span> -->
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+          <div id="mainnav" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+
+              <li class="nav-item">
+                <a href="#desc" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#schedule-link" class="nav-link">Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a href="#faq-link" class="nav-link">FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a href="#sponsors-link" class="nav-link">Sponsors</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    </header>
     <!--  --------------------------------------------------------intro part----------------------------------------------- -->
     <div id="intro">
       <video
@@ -85,6 +117,7 @@
         containerInStyle
         wow
         animate__animated animate__zoomIn animate__slow
+        internal-link 
       "
     >
       <span class="head-about">About the Event</span>
@@ -106,8 +139,8 @@
     <hr class="hrule" />
 
     <!-- ---------------------------------------------------------SCHEDULE--------------------------------------------------------- -->
-    <div class="schedule-section container-fluid">
-      <div class="schedule-block container" id="schedule-link">
+    <div class="schedule-section container-fluid internal-link" id="schedule-link">
+      <div class="schedule-block container " >
         <h2 class="schedule-title schedule-page-heading">EVENT SCHEDULE</h2>
         <div class="schedule-layout">
           <div class="line wow animate__animated animate__fadeInUp"></div>
@@ -277,7 +310,7 @@
     </div>
     <!-- ----------------------------------------------sponsor----------------------------------------------------------------- -->
 
-    <div class="sponsors-block container-fluid" id="sponsors-link">
+    <div class="sponsors-block container-fluid internal-link" id="sponsors-link">
       <h2
         class="
           sponsors-title
@@ -400,7 +433,7 @@
       </div>
     </div>
     <!-- -----------------------------------------------------------faq------------------------------------------------------------ -->
-    <div class="faq-block container" id="faq-link">
+    <div class="faq-block container internal-link" id="faq-link">
       <h2 class="faq-title schedule-page-heading">FAQs</h2>
 
       <div
@@ -457,7 +490,7 @@
             <h5>MENU</h5>
             <ul class="list-unstyled footer-list">
               <li class="footer-links">
-                <a href="#faq-link" class="footer-links-anchor">ABOUT</a>
+                <a href="#desc" class="footer-links-anchor">ABOUT</a>
               </li>
               <li class="footer-links">
                 <a href="#schedule-link" class="footer-links-anchor"

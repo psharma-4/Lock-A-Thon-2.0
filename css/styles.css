@@ -28,11 +28,11 @@
   color: white;
 }
 
-.show {
+/* .show {
   margin: 10%;
   height: 80%;
   transition: all 0.5s ease-in;
-}
+} */
 
 .front {
   background-color: orange;
@@ -68,7 +68,7 @@
 
 .containerInStyle {
   padding: 50px;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .head-about {
@@ -76,6 +76,7 @@
   text-align: center;
   font-weight: 700;
   display: block;
+  margin-top: 70px;
 }
 
 /* .color-change {

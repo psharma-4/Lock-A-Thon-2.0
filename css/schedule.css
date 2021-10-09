@@ -10,6 +10,52 @@ body{
 }
 
 
+/* ----------------------------------------------------------------------------------navbar -----------------------------------------------------------------*/
+.navbar{
+    padding: 0;
+}
+.navbar-brand{
+    /* position: relative;
+    left: -150px; */
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.nav-item a:hover{
+    color: yellow;
+}
+/* .nav-item a{
+    color: white;
+} */
+.nav-link{
+    color: white;
+}
+.navbar-icon{
+    color: white;
+}
+.fixed-top{
+    position: fixed;
+    /* padding: 0; */
+    left: 0;
+    top: 0;
+   
+    background-color: black;
+    transition: background-color 250ms ease-in;
+    /* transition: all 2s ease-out; */
+}
+
+.internal-link{
+    padding-top: 100px;
+    margin-top: -100px;
+}
+
+
+
+/* ------------------------------------------------------------Schedule-------------------------------------------------------------------------- */
+
+
+
+
 .schedule-page-heading{
     font-family: 'Rokkitt', serif;
     font-size: 2.7rem;
@@ -22,7 +68,8 @@ body{
 .schedule-block{
     
     /* margin-top: 50px; */
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
 .schedule-layout{
     font-family: 'Old Standard TT', serif;
@@ -86,8 +133,10 @@ body{
     font-weight: bold;
     color: coral
 }
-
-
+/* ------------------------------------------------------------------faq--------------------------------------------------------------------------------------------- */
+.faq-title{
+    margin-top: 50px;
+}
 .faq-card{
     cursor: pointer;
     margin-top: 5px;
@@ -114,10 +163,12 @@ body{
     font-size: 1.3rem;
 }
 
-/* .sponsors-title{
-    align-self: center;
-    margin: auto;
-} */
+
+
+/* ------------------------------------------------------------------sponsors----------------------------------------------------------------------- */
+.sponsors-title{
+    margin-top: 50px;
+}
 /* .sponsors-block{
     margin: 20px;
 } */
@@ -166,7 +217,7 @@ body{
 
 
 
-
+/* ------------------------------------------------------------------------------------footer------------------------------------------------------------- */
 
 .footer-block{
     /* position: absolute;
@@ -238,7 +289,7 @@ body{
 
 }
 
-
+/* --------------------------------------------------------general-------------------------------------------------------------------------------- */
 .row{
     margin-bottom: 20px;
     align-items: center;
