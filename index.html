@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="shortcut icon" type="image/jpg" href="./images/robolution.jpg" />
     <title>Lock-A-Thon 2.0</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -57,39 +58,57 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!--  --------------------------------------------------------header--------------------------------------------------------------  -->
+
     <header class="overlay">
       <!-- Lock-A-Thon 2.0 -->
-      <nav class="navbar navbar-expand-md ">
+      <nav class="navbar navbar-expand-md">
         <div class="container">
-          <a href="#" class="navbar-brand"><img src="./images/bit.png" alt="" style="width: 60px;" /></a>
-          <button class="navbar-toggler navbar-icon" type="button" style="color: white;" data-toggle="collapse" data-target="#mainnav" aria-controls="mainnav" aria-expanded="false" aria-label="Toggle navigation">
+          <a href="#" class="navbar-brand"
+            ><img src="./images/bit.png" alt="" style="width: 60px"
+          /></a>
+          <button
+            class="navbar-toggler navbar-icon"
+            type="button"
+            style="color: white"
+            data-toggle="collapse"
+            data-target="#mainnav"
+            aria-controls="mainnav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <!-- lol -->
             <!-- <span class="navbar-toggler-icon text-light" style="color: white;"></span> -->
             <i class="fa fa-bars" aria-hidden="true"></i>
           </button>
           <div id="mainnav" class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-
               <li class="nav-item">
                 <a href="#desc" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#prizes" class="nav-link">Prizes</a>
               </li>
               <li class="nav-item">
                 <a href="#schedule-link" class="nav-link">Schedule</a>
               </li>
               <li class="nav-item">
-                <a href="#faq-link" class="nav-link">FAQs</a>
+                <a href="#lastResults" class="nav-link">Past Winners</a>
               </li>
               <li class="nav-item">
                 <a href="#sponsors-link" class="nav-link">Sponsors</a>
               </li>
-
+              <li class="nav-item">
+                <a href="#faq-link" class="nav-link">FAQs</a>
+              </li>
             </ul>
           </div>
         </div>
       </nav>
-
     </header>
+
     <!--  --------------------------------------------------------intro part----------------------------------------------- -->
+
     <div id="intro">
       <video
         id="background-video"
@@ -110,6 +129,7 @@
     </div>
 
     <!--  -------------------------------------------------------description----------------------------------------------- -->
+
     <div
       id="desc"
       class="
@@ -117,7 +137,7 @@
         containerInStyle
         wow
         animate__animated animate__zoomIn animate__slow
-        internal-link 
+        internal-link
       "
     >
       <span class="head-about">About the Event</span>
@@ -136,11 +156,69 @@
         </p>
       </div>
     </div>
-    <hr class="hrule" />
 
     <!-- ---------------------------------------------------------SCHEDULE--------------------------------------------------------- -->
-    <div class="schedule-section container-fluid internal-link" id="schedule-link">
-      <div class="schedule-block container " >
+
+    <div id="prizes">
+      <div class="mainData2">
+        <h1>PRIZES THIS YEAR</h1>
+        <hr class="just-rule" />
+        <hr class="just-rule" />
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="./images/1st.jpg"
+                alt="1st Place"
+                class="flip-card-img"
+              />
+            </div>
+            <div class="flip-card-back">
+              <h1>WINNER</h1>
+              <p>COMING SOON!</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="./images/2nd.jpg"
+                alt="1st Runner Up"
+                class="flip-card-img"
+              />
+            </div>
+            <div class="flip-card-back">
+              <h1>1ST RUNNER-UP</h1>
+              <p>COMING SOON!</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img
+                src="./images/3rd.jpg"
+                alt="Best Mech-Hack"
+                class="flip-card-img"
+              />
+            </div>
+            <div class="flip-card-back">
+              <h1>BEST MECH-HACK</h1>
+              <p>COMING SOON!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------------------------------------------SCHEDULE--------------------------------------------------------- -->
+
+    <div
+      class="schedule-section container-fluid internal-link"
+      id="schedule-link"
+    >
+      <div class="schedule-block container">
         <h2 class="schedule-title schedule-page-heading">EVENT SCHEDULE</h2>
         <div class="schedule-layout">
           <div class="line wow animate__animated animate__fadeInUp"></div>
@@ -222,9 +300,12 @@
     </div>
 
     <!--  ------------------------------------------------------last results----------------------------------------------- -->
+
     <div id="lastResults">
-      <div class="mainData">
-        <h2>PAST WINNERS</h2>
+      <div class="mainData1">
+        <h1>PAST WINNERS</h1>
+        <hr class="just-rule" />
+        <hr class="just-rule" />
         <div class="result-card card" style="width: 18rem">
           <img
             src="./images/dummysponsor.jpg"
@@ -308,9 +389,13 @@
         </div>
       </div>
     </div>
+
     <!-- ----------------------------------------------sponsor----------------------------------------------------------------- -->
 
-    <div class="sponsors-block container-fluid internal-link" id="sponsors-link">
+    <div
+      class="sponsors-block container-fluid internal-link"
+      id="sponsors-link"
+    >
       <h2
         class="
           sponsors-title
@@ -432,7 +517,9 @@
         </div>
       </div>
     </div>
+
     <!-- -----------------------------------------------------------faq------------------------------------------------------------ -->
+
     <div class="faq-block container internal-link" id="faq-link">
       <h2 class="faq-title schedule-page-heading">FAQs</h2>
 
@@ -448,7 +535,7 @@
             ></i>
           </div>
           <div class="faq-answer">
-            Lock-a-thon is an amazing opportunity to showcase your engineering
+            Lock-A-Thon is an amazing opportunity to showcase your engineering
             skills to solve real world problems and in the meanwhile win
             exciting prizes. It is an event which promotes new skills and
             sharpens existing ones!
@@ -461,24 +548,198 @@
       >
         <div class="card-body">
           <div class="faq-question">
-            1. What is Lock-A-Thon?
+            2. How much does it cost?
             <i
               class="fa fa-arrow-circle-down float-right"
               aria-hidden="true"
             ></i>
           </div>
           <div class="faq-answer">
-            Lock-a-thon is an amazing opportunity to showcase your engineering
-            skills to solve real world problems and in the meanwhile win
-            exciting prizes. It is an event which promotes new skills and
-            sharpens existing ones!
+            Lock-A-Thon is absolutely free. Any student with a will to solve and
+            develop can participate in Lock-A-Thon.
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="card faq-card wow animate__animated animate__lightSpeedInRight"
+      >
+        <div class="card-body">
+          <div class="faq-question">
+            3. What if I don't know how to code?
+            <i
+              class="fa fa-arrow-circle-down float-right"
+              aria-hidden="true"
+            ></i>
+          </div>
+          <div class="faq-answer">
+            That is not a problem. A great way to learn how to code is by
+            attending such events. Lock-A-Thon is an event for like-minded
+            people where they share interests, and explore their passions,
+            whether it is Coding, Electronics or anything else, you never know
+            what you might pick up!!
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="card faq-card wow animate__animated animate__lightSpeedInRight"
+      >
+        <div class="card-body">
+          <div class="faq-question">
+            4. Who is Lock-A-Thon for?
+            <i
+              class="fa fa-arrow-circle-down float-right"
+              aria-hidden="true"
+            ></i>
+          </div>
+          <div class="faq-answer">
+            Lock-a-thon is for students of all Universities who are in their
+            sophomore year or pre-final year.
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="card faq-card wow animate__animated animate__lightSpeedInRight"
+      >
+        <div class="card-body">
+          <div class="faq-question">
+            5. Do you have a particular theme for the Lock-A-Thon?
+            <i
+              class="fa fa-arrow-circle-down float-right"
+              aria-hidden="true"
+            ></i>
+          </div>
+          <div class="faq-answer">
+            No. The Lock-A-Thon is open. You can use any technology to build
+            your hacks.
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="card faq-card wow animate__animated animate__lightSpeedInRight"
+      >
+        <div class="card-body">
+          <div class="faq-question">
+            6. What is the criteria of selection?
+            <i
+              class="fa fa-arrow-circle-down float-right"
+              aria-hidden="true"
+            ></i>
+          </div>
+          <div class="faq-answer">
+            You will be judged on the quality of your idea. The idea is only a
+            part of the judgement. The skills of your team members would play a
+            major role in your selection.
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="card faq-card wow animate__animated animate__lightSpeedInRight"
+      >
+        <div class="card-body">
+          <div class="faq-question">
+            7. I don't have an original idea. Can I still participate?
+            <i
+              class="fa fa-arrow-circle-down float-right"
+              aria-hidden="true"
+            ></i>
+          </div>
+          <div class="faq-answer">
+            Of course. Not every idea has to be unique. Infact while pursuing
+            your not-so-unique idea you might even lead to the improvement of
+            existing product.
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="card faq-card wow animate__animated animate__lightSpeedInRight"
+      >
+        <div class="card-body">
+          <div class="faq-question">
+            8. Is the selection per member or per-team basis?
+            <i
+              class="fa fa-arrow-circle-down float-right"
+              aria-hidden="true"
+            ></i>
+          </div>
+          <div class="faq-answer">Per-team basis.</div>
+        </div>
+      </div>
+
+      <div
+        class="card faq-card wow animate__animated animate__lightSpeedInRight"
+      >
+        <div class="card-body">
+          <div class="faq-question">
+            9. Are there prizes for the hack categories?
+            <i
+              class="fa fa-arrow-circle-down float-right"
+              aria-hidden="true"
+            ></i>
+          </div>
+          <div class="faq-answer">
+            Yes. you will be awarded with e-certificates and goodies,thanks to
+            our sponsors!
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="card faq-card wow animate__animated animate__lightSpeedInRight"
+      >
+        <div class="card-body">
+          <div class="faq-question">
+            10. Do we get any certificate for participation?
+            <i
+              class="fa fa-arrow-circle-down float-right"
+              aria-hidden="true"
+            ></i>
+          </div>
+          <div class="faq-answer">Yes</div>
+        </div>
+      </div>
+
+      <div
+        class="card faq-card wow animate__animated animate__lightSpeedInRight"
+      >
+        <div class="card-body">
+          <div class="faq-question">
+            11. How big a team can be?
+            <i
+              class="fa fa-arrow-circle-down float-right"
+              aria-hidden="true"
+            ></i>
+          </div>
+          <div class="faq-answer">The maximum team size is four.</div>
+        </div>
+      </div>
+
+      <div
+        class="card faq-card wow animate__animated animate__lightSpeedInRight"
+      >
+        <div class="card-body">
+          <div class="faq-question">
+            12. Error 404 question not found?
+            <i
+              class="fa fa-arrow-circle-down float-right"
+              aria-hidden="true"
+            ></i>
+          </div>
+          <div class="faq-answer">
+            You can contact us at
+            <a target="_blank" href="https://discord.gg/bCk4GDq65z">DISCORD</a>
           </div>
         </div>
       </div>
     </div>
-    <!--  ------------------------------------------------------------footer----------------------------------------------- -->
 
     <!--  ------------------------------------------------------------footer----------------------------------------------- -->
+
     <footer class="footer-block container-fluid">
       <div class="container text-light">
         <div class="row justify-content-center">
@@ -493,8 +754,16 @@
                 <a href="#desc" class="footer-links-anchor">ABOUT</a>
               </li>
               <li class="footer-links">
+                <a href="#prizes" class="footer-links-anchor">PRIZES</a>
+              </li>
+              <li class="footer-links">
                 <a href="#schedule-link" class="footer-links-anchor"
                   >SCHEDULE</a
+                >
+              </li>
+              <li class="footer-links">
+                <a href="#lastResults" class="footer-links-anchor"
+                  >PAST WINNERS</a
                 >
               </li>
               <li class="footer-links">
@@ -528,10 +797,10 @@
                   href="https://www.linkedin.com/company/robolution-bit-mesra/"
                   ><i class="fa fa-linkedin-square" aria-hidden="true"></i></a
               ></span>
-              <span class="mx-2"
+              <!-- <span class="mx-2"
                 ><a href="https://www.facebook.com/TeamRobolution"
-                  ><i class="fa fa-twitter" aria-hidden="true"></i></a
-              ></span>
+                  ><i class="fab fa-discord fa-lg" aria-hidden="true"></i></a
+              ></span> -->
               <span class="mx-2"
                 ><a href="https://www.instagram.com/robolution.bitm/"
                   ><i class="fa fa-instagram" aria-hidden="true"></i></a
@@ -543,12 +812,12 @@
           </div>
 
           <div class="col-xl-3 col-md-3">
-            <div>CONTACT-1</div>
-            <div>999999999</div>
+            <div>Ashish</div>
+            <div>+91 9693164695</div>
           </div>
           <div class="col-xl-3 col-md-3">
-            <div>CONTACT-2</div>
-            <div>999999999</div>
+            <div>Rahul</div>
+            <div>+91 7070466251</div>
           </div>
         </div>
         <hr style="background-color: aliceblue" />
