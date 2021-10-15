@@ -4,6 +4,8 @@
     <link rel="shortcut icon" type="image/jpg" href="./images/robolution.jpg" />
     <title>Lock-A-Thon 2.0</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -55,6 +57,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Playfair+Display:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -157,58 +160,69 @@
       </div>
     </div>
 
-    <!-- ---------------------------------------------------------SCHEDULE--------------------------------------------------------- -->
+    <!-- ---------------------------------------------------------PRIZES--------------------------------------------------------- -->
 
-    <div id="prizes">
+    <div id="prizes" class="conatiner-fluid">
       <div class="mainData2">
         <h1>PRIZES THIS YEAR</h1>
         <hr class="just-rule" />
         <hr class="just-rule" />
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img
-                src="./images/1st.jpg"
-                alt="1st Place"
-                class="flip-card-img"
-              />
+        <div class="prize-cards container-fluid">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="flip-card ">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img
+                      src="./images/1st.jpg"
+                      alt="1st Place"
+                      class="flip-card-img"
+                    />
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>WINNER</h1>
+                    <p>COMING SOON!</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="flip-card-back">
-              <h1>WINNER</h1>
-              <p>COMING SOON!</p>
-            </div>
-          </div>
-        </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img
-                src="./images/2nd.jpg"
-                alt="1st Runner Up"
-                class="flip-card-img"
-              />
-            </div>
-            <div class="flip-card-back">
-              <h1>1ST RUNNER-UP</h1>
-              <p>COMING SOON!</p>
-            </div>
-          </div>
-        </div>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <img
-                src="./images/3rd.jpg"
-                alt="Best Mech-Hack"
-                class="flip-card-img"
-              />
-            </div>
-            <div class="flip-card-back">
-              <h1>BEST MECH-HACK</h1>
-              <p>COMING SOON!</p>
+          <div class="col-md-4">
+            <div class="flip-card ">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img
+                    src="./images/2nd.jpg"
+                    alt="1st Runner Up"
+                    class="flip-card-img"
+                  />
+                </div>
+                <div class="flip-card-back">
+                  <h1>1ST RUNNER-UP</h1>
+                  <p>COMING SOON!</p>
+                </div>
+              </div>
             </div>
           </div>
+          <div class="col-md-4">
+            <div class="flip-card ">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img
+                    src="./images/3rd.jpg"
+                    alt="Best Mech-Hack"
+                    class="flip-card-img"
+                  />
+                </div>
+                <div class="flip-card-back">
+                  <h1>BEST MECH-HACK</h1>
+                  <p>COMING SOON!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
         </div>
+      </div>
       </div>
     </div>
 
@@ -519,9 +533,9 @@
     </div>
 
     <!-- -----------------------------------------------------------faq------------------------------------------------------------ -->
-
-    <div class="faq-block container internal-link" id="faq-link">
-      <h2 class="faq-title schedule-page-heading">FAQs</h2>
+    <div class="faq-section container-fluid internal-link" id="faq-link">
+    <div class="faq-block container " >
+      <h2 class="faq-title schedule-page-heading ">FAQs</h2>
 
       <div
         class="card faq-card wow animate__animated animate__lightSpeedInRight"
@@ -737,7 +751,7 @@
         </div>
       </div>
     </div>
-
+  </div>
     <!--  ------------------------------------------------------------footer----------------------------------------------- -->
 
     <footer class="footer-block container-fluid">
@@ -797,14 +811,16 @@
                   href="https://www.linkedin.com/company/robolution-bit-mesra/"
                   ><i class="fa fa-linkedin-square" aria-hidden="true"></i></a
               ></span>
-              <!-- <span class="mx-2"
-                ><a href="https://www.facebook.com/TeamRobolution"
-                  ><i class="fab fa-discord fa-lg" aria-hidden="true"></i></a
-              ></span> -->
+              <span class="mx-2"
+                ><a href="https://www.facebook.com/TeamRobolution"><i class="fab fa-discord" aria-hidden="true"></i
+              ></a></span>
               <span class="mx-2"
                 ><a href="https://www.instagram.com/robolution.bitm/"
                   ><i class="fa fa-instagram" aria-hidden="true"></i></a
               ></span>
+              <span class="mx-2"
+                ><a href="https://www.instagram.com/robolution.bitm/"><i class="fa fa-envelope" aria-hidden="true"></i
+              ></a></span>
             </p>
             <small class="rights"
               ><span>&#174;</span> ROBOLUTION All Rights Reserved.</small
