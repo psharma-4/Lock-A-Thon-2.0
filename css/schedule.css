@@ -319,15 +319,11 @@ body{
 
 
 @media (max-width: 575.98px) {
-    /* .schedule-section{
-        display: none;
-    } */
     #mainnav{
         position: relative;
     }
     .nav-link{
-        margin-left: 20px;
-        
+        margin-left: 20px; 
     }
     .line{
         height: 1300px;
@@ -340,15 +336,4 @@ body{
         min-width: 100px;
         width: 80vw;
     }
-    
-    /* #intro{
-        display: none;
-    } */
-    /* #desc{
-        display: none;
-    } */
-    
-    /* #lastResults{
-        display: none;
-    } */
 }
