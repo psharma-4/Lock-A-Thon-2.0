@@ -128,3 +128,17 @@
   padding-top: 5%;
   padding-bottom: 5%;
 }
+
+
+@media (max-width: 575.98px) {
+  
+  .just-rule{
+      width: 95vw;
+  }
+  .result-card{
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  
+}
